@@ -23,13 +23,13 @@
   text-decoration: none;
   color: #4c4a48; /* Initial text color to gold-ish */
   font-size: 20px;
+  font-weight: bold;
   padding: 10px 20px;
   border-radius: 8px;
   text-align: left;
   width: 100%;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 
 .nav-links a:hover {
   background-color: #d6b36c; /* Gold background on hover */
@@ -38,8 +38,6 @@
   padding-left: 25px; /* Slight push on hover */
   margin-left: -20px; /* Align with the sidebar */
 }
-
-
 
 .sidebar {
   position: fixed;
@@ -66,7 +64,6 @@
   margin-top: -15px;
   margin-left: -20px;
 }
-
 
 .main-content {
   margin-left: 270px;

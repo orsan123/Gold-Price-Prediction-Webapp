@@ -25,13 +25,13 @@
   text-decoration: none;
   color: #4c4a48; /* Initial text color to gold-ish */
   font-size: 20px;
+  font-weight: bold;
   padding: 10px 20px;
   border-radius: 8px;
   text-align: left;
   width: 100%;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 
 .nav-links a:hover {
   background-color: #d6b36c; /* Gold background on hover */
@@ -45,7 +45,7 @@
   position: fixed;
   bottom: 20px;
   left: 20px;
-  background-color: #FCEFCB;
+  background-color: #fcefcb;
   padding: 10px 15px;
   font-size: 20px;
   cursor: pointer;
@@ -55,7 +55,7 @@
 }
 
 .sidebar-toggle:hover {
-  background-color: #A86523;
+  background-color: #a86523;
 }
 
 .sidebar {
@@ -99,30 +99,28 @@
 
 /*------------------------------------navbar ^^^^^^^^----------------------------------*/
 
-
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 }
 
 .container {
-    height:auto;
-    background: linear-gradient(to bottom right, #1e1e1e, #2e2e2e);
+  height: auto;
+  background: linear-gradient(to bottom right, #1e1e1e, #2e2e2e);
 }
-
 
 .main-content {
   margin-left: 280px;
   padding: 50px;
-  font-family: 'Segoe UI', sans-serif;
-  color: #FCEFCB;
+  font-family: "Segoe UI", sans-serif;
+  color: #fcefcb;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-padding-top: 100px; /* Adjust as needed */
+  padding-top: 100px; /* Adjust as needed */
 }
-
 
 .prediction-box {
   background-color: #000;
@@ -158,7 +156,7 @@ padding-top: 100px; /* Adjust as needed */
   border-radius: 8px;
   border: 1px solid #d6b36c;
   background-color: #1e1e1e;
-  color: #FCEFCB;
+  color: #fcefcb;
   width: 60%;
 }
 
@@ -180,11 +178,11 @@ padding-top: 100px; /* Adjust as needed */
 .result {
   margin-top: 30px;
   font-size: 18px;
-  color: #FFD700; /* Remove this line if using different colors for h3 and p */
+  color: #ffd700; /* Remove this line if using different colors for h3 and p */
 }
 
 .result h3 {
-  color: #FCEFCB; /* Beige title */
+  color: #fcefcb; /* Beige title */
   font-size: 20px;
   margin-bottom: 10px;
 }
@@ -194,4 +192,3 @@ padding-top: 100px; /* Adjust as needed */
   font-size: 22px;
   color: #d6b36c; /* Gold for predicted value */
 }
-
